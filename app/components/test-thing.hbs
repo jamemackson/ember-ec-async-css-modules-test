@@ -1,3 +1,5 @@
 <div local-class="my-style">
 {{yield}}
+{{this.status}}
+<button type="button" {{on 'click' (perform this.waitAFewSeconds)}}>click me</button>
 </div>
